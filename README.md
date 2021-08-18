@@ -31,6 +31,7 @@ libz.1.2.8.tbd
 
 接口:
 
+```
 + (int)signIPA:(NSString *)ipa_path
            size:(NSString*)size
             cer:(NSString *)cer_path
@@ -41,6 +42,7 @@ libz.1.2.8.tbd
   bundleVersion:(NSString *_Nullable)bundleVersion
        zipLevel:(NSInteger)zipLevel
          output:(NSString *)output_path;
+```
 
 ipa_path: -----  ipa的沙盒路径
 
