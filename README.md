@@ -5,12 +5,12 @@
 
 App端签名
 
-环境配置:
+# 环境配置:
 ```
 openssl 1.1.1 主要用来证书校验
 SSZipArchive SDK 里面已经打进去了.主要用来解压app和压缩app
 
-添加系统库:
+# 添加系统库:
 
 libiconv.tbd
 
@@ -31,7 +31,7 @@ CoreServices.framework
 libz.1.2.8.tbd
 ```
 
-接口:
+# 接口:
 
 ```
 + (int)signIPA:(NSString *)ipa_path
@@ -45,6 +45,7 @@ libz.1.2.8.tbd
        zipLevel:(NSInteger)zipLevel
          output:(NSString *)output_path;
 ```
+# 参数解释
 
 ```
 ipa_path: -----  ipa的沙盒路径
