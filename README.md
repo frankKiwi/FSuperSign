@@ -6,6 +6,7 @@
 App端签名
 
 环境配置:
+```
 openssl 1.1.1 主要用来证书校验
 SSZipArchive SDK 里面已经打进去了.主要用来解压app和压缩app
 
@@ -28,6 +29,7 @@ MobileCoreServices.framework
 CoreServices.framework
 
 libz.1.2.8.tbd
+```
 
 接口:
 
@@ -44,6 +46,7 @@ libz.1.2.8.tbd
          output:(NSString *)output_path;
 ```
 
+```
 ipa_path: -----  ipa的沙盒路径
 
 size: ------ ipa的大小
@@ -63,6 +66,7 @@ bundleVersion: ---- 版本
 zipLevel: ---- 压缩层级
 
 output_path: ---- 输出路径
+```
 
 
 
